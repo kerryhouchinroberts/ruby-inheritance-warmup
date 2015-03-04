@@ -23,14 +23,11 @@ class Aussie < Person
 
 end
 
-class Kiwi < Person
+class Kiwi < Aussie
   def type_of_person
     "a Kiwi"
   end
 
-  def greeting
-    "G'day mate!"
-  end
 end
 
 class Irish < Person
